@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SimpleWordChange:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SimpleWordChange_jar</output-path>
+    <root id="archive" name="SimpleWordChange.jar">
+      <element id="module-output" name="SimpleWordChange" />
+      <element id="directory" name="images">
+        <element id="file-copy" path="$PROJECT_DIR$/images/cool.png" />
+      </element>
+    </root>
+  </artifact>
+</component>

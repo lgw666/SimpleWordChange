@@ -1,6 +1,6 @@
 # 简单单词转换(SimpleWordChange)
 
-[JAR下载地址(可直接运行，需要有Java运行环境)](http://pan.baidu.com/s/1hsrJBP6)
+[JAR下载地址(可直接运行，需要有Java运行环境)](https://pan.baidu.com/s/1jIeiSbc)
 
 **使用说明：**
 

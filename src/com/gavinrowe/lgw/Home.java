@@ -288,13 +288,15 @@ class Home extends JDialog {
         int len = chars.length;
         ArrayList<Character> characters = toList(chars);
         boolean isFirstChar = true;
+        int count = 1;
         for (int i = 1; i < len; i++) {
             if (isUpper(chars[i])) {
                 if (isFirstChar) {
                     characters.add(i, SEPARATOR);
                     isFirstChar = false;
                 } else {
-                    characters.add(i + 1, SEPARATOR);
+                    characters.add(i + count, SEPARATOR);
+                    count++;
                 }
             }
         }

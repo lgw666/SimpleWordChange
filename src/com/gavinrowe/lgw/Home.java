@@ -287,10 +287,15 @@ class Home extends JDialog {
     private String changeResult(char[] chars) {
         int len = chars.length;
         ArrayList<Character> characters = toList(chars);
-
+        boolean isFirstChar = true;
         for (int i = 1; i < len; i++) {
             if (isUpper(chars[i])) {
-                characters.add(i, SEPARATOR);
+                if (isFirstChar) {
+                    characters.add(i, SEPARATOR);
+                    isFirstChar = false;
+                } else {
+                    characters.add(i + 1, SEPARATOR);
+                }
             }
         }
 
